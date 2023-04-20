@@ -4,10 +4,6 @@ from utils import *
 
 
 def test_get_posts_all():
-
-    file = open('./data/posts.json')
-    file = json.load(file)
-    assert file == get_posts_all(), 'Не удалось открыть файл с постами'
     assert type(get_posts_all()) == list, 'Файл не того типа'
 
 

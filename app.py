@@ -6,6 +6,7 @@ app = Flask(__name__, template_folder='templates')
 logging.basicConfig(level=logging.INFO, filename='logs/api.log', format='%(asctime)s [%(levelname)s] %(message)s')
 app.config["JSON_AS_ASCII"] = False
 
+
 @app.route('/')
 def main_page():
     posts = get_posts_all()
@@ -52,6 +53,12 @@ def bookmarks_page():
     return render_template('bookmarks.html', posts=posts)
 
 
+@app.route('/tag/<word>')
+def tag_page(word):
+    posts = get_tag(word)
+    return render_template('tag.html', posts=posts, word=word.upper())
+
+
 @app.route('/api/posts')
 def api_posts_page():
     logging.info('Зашел на api по всем пользователям')
@@ -72,7 +79,7 @@ def page_not_found(e):
 
 
 @app.errorhandler(500)
-def page_not_found(e):
+def page_not_fond(e):
     return "<h1>Internal Server Error</h1>", 500
 
 

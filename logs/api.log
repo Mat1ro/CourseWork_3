@@ -125,3 +125,363 @@
 2023-01-11 09:12:55,599 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2023-01-11 09:12:55,599 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-17 13:36:23,006 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-17 13:36:23,009 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-17 13:37:05,872 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:05] "GET / HTTP/1.1" 200 -
+2023-01-17 13:37:05,947 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:05] "GET /static/img/eye.png HTTP/1.1" 200 -
+2023-01-17 13:37:05,955 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:05] "GET /static/img/bookmark.png HTTP/1.1" 200 -
+2023-01-17 13:37:05,956 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:05] "GET /static/css/styles.min.css HTTP/1.1" 200 -
+2023-01-17 13:37:10,487 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:10] "GET /users/leo HTTP/1.1" 200 -
+2023-01-17 13:37:10,498 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 13:37:10,499 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 13:37:10,503 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 13:37:11,599 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:11] "GET / HTTP/1.1" 200 -
+2023-01-17 13:37:11,610 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 13:37:11,614 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 13:37:11,618 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 13:37:18,058 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:18] "GET /bookmarks HTTP/1.1" 200 -
+2023-01-17 13:37:18,068 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 13:37:18,071 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 13:37:18,075 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:18] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 13:37:18,898 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:18] "[32mGET /bookmarks/remove/1 HTTP/1.1[0m" 302 -
+2023-01-17 13:37:18,901 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:18] "GET / HTTP/1.1" 200 -
+2023-01-17 13:37:18,913 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 13:37:18,914 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 13:37:18,919 [INFO] 127.0.0.1 - - [17/Jan/2023 13:37:18] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 13:37:57,809 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-17 13:37:57,809 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-17 13:38:02,770 [INFO] 127.0.0.1 - - [17/Jan/2023 13:38:02] "GET / HTTP/1.1" 200 -
+2023-01-17 13:38:02,791 [INFO] 127.0.0.1 - - [17/Jan/2023 13:38:02] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 13:38:02,792 [INFO] 127.0.0.1 - - [17/Jan/2023 13:38:02] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 13:38:02,794 [INFO] 127.0.0.1 - - [17/Jan/2023 13:38:02] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 13:38:05,103 [INFO] 127.0.0.1 - - [17/Jan/2023 13:38:05] "GET / HTTP/1.1" 200 -
+2023-01-17 13:38:05,118 [INFO] 127.0.0.1 - - [17/Jan/2023 13:38:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 13:38:05,121 [INFO] 127.0.0.1 - - [17/Jan/2023 13:38:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 13:38:05,124 [INFO] 127.0.0.1 - - [17/Jan/2023 13:38:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 13:38:30,087 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-17 13:38:30,087 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-17 13:38:36,445 [INFO] 127.0.0.1 - - [17/Jan/2023 13:38:36] "GET / HTTP/1.1" 200 -
+2023-01-17 13:38:36,470 [INFO] 127.0.0.1 - - [17/Jan/2023 13:38:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 13:38:36,470 [INFO] 127.0.0.1 - - [17/Jan/2023 13:38:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 13:38:36,471 [INFO] 127.0.0.1 - - [17/Jan/2023 13:38:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 13:39:54,311 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-17 13:39:54,311 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-17 13:40:04,832 [INFO] 127.0.0.1 - - [17/Jan/2023 13:40:04] "GET / HTTP/1.1" 200 -
+2023-01-17 13:40:04,858 [INFO] 127.0.0.1 - - [17/Jan/2023 13:40:04] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 13:40:04,858 [INFO] 127.0.0.1 - - [17/Jan/2023 13:40:04] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 13:40:04,859 [INFO] 127.0.0.1 - - [17/Jan/2023 13:40:04] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 13:40:33,075 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-17 13:40:33,075 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-17 13:40:35,208 [INFO] 127.0.0.1 - - [17/Jan/2023 13:40:35] "GET / HTTP/1.1" 200 -
+2023-01-17 13:40:35,227 [INFO] 127.0.0.1 - - [17/Jan/2023 13:40:35] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 13:40:35,227 [INFO] 127.0.0.1 - - [17/Jan/2023 13:40:35] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 13:40:35,229 [INFO] 127.0.0.1 - - [17/Jan/2023 13:40:35] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 13:48:25,039 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-17 13:48:25,039 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-17 13:48:30,040 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/main.py", line 12, in main_page
+    bookmarks = get_bookmarks_all()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/utils.py", line 23, in get_bookmarks_all
+    return json.load(file)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-01-17 13:48:30,042 [INFO] 127.0.0.1 - - [17/Jan/2023 13:48:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-01-17 13:48:33,814 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/main.py", line 12, in main_page
+    bookmarks = get_bookmarks_all()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/utils.py", line 23, in get_bookmarks_all
+    return json.load(file)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-01-17 13:48:33,815 [INFO] 127.0.0.1 - - [17/Jan/2023 13:48:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-01-17 13:48:34,356 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/main.py", line 12, in main_page
+    bookmarks = get_bookmarks_all()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/utils.py", line 23, in get_bookmarks_all
+    return json.load(file)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-01-17 13:48:34,357 [INFO] 127.0.0.1 - - [17/Jan/2023 13:48:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-01-17 13:48:34,736 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/main.py", line 12, in main_page
+    bookmarks = get_bookmarks_all()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/utils.py", line 23, in get_bookmarks_all
+    return json.load(file)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-01-17 13:48:34,737 [INFO] 127.0.0.1 - - [17/Jan/2023 13:48:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-01-17 13:48:45,969 [INFO] Зашел на api по всем пользователям
+2023-01-17 13:48:45,974 [INFO] 127.0.0.1 - - [17/Jan/2023 13:48:45] "GET /api/posts HTTP/1.1" 200 -
+2023-01-17 13:50:38,354 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-17 13:50:38,355 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-17 13:50:41,018 [INFO] Зашел на api по всем пользователям
+2023-01-17 13:50:41,021 [INFO] 127.0.0.1 - - [17/Jan/2023 13:50:41] "GET /api/posts HTTP/1.1" 200 -
+2023-01-17 13:50:44,859 [INFO] Зашел на api по всем пользователям
+2023-01-17 13:50:44,860 [INFO] 127.0.0.1 - - [17/Jan/2023 13:50:44] "GET /api/posts HTTP/1.1" 200 -
+2023-01-17 13:50:48,018 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/main.py", line 12, in main_page
+    bookmarks = get_bookmarks_all()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/utils.py", line 24, in get_bookmarks_all
+    return json.load(file)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-01-17 13:50:48,021 [INFO] 127.0.0.1 - - [17/Jan/2023 13:50:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-01-17 13:50:54,483 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/main.py", line 12, in main_page
+    bookmarks = get_bookmarks_all()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/utils.py", line 24, in get_bookmarks_all
+    return json.load(file)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-01-17 13:50:54,484 [INFO] 127.0.0.1 - - [17/Jan/2023 13:50:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-01-17 13:50:55,014 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/main.py", line 12, in main_page
+    bookmarks = get_bookmarks_all()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/utils.py", line 24, in get_bookmarks_all
+    return json.load(file)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-01-17 13:50:55,015 [INFO] 127.0.0.1 - - [17/Jan/2023 13:50:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-01-17 13:51:10,224 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-17 13:51:10,224 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-17 13:51:19,631 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/main.py", line 12, in main_page
+    bookmarks = get_bookmarks_all()
+  File "/Users/boronoff/PycharmProjects/CourseWork_3/utils.py", line 24, in get_bookmarks_all
+    return json.load(file)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-01-17 13:51:19,635 [INFO] 127.0.0.1 - - [17/Jan/2023 13:51:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-01-17 13:52:35,253 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-17 13:52:35,253 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-17 13:52:44,108 [INFO] 127.0.0.1 - - [17/Jan/2023 13:52:44] "GET / HTTP/1.1" 200 -
+2023-01-17 13:52:44,129 [INFO] 127.0.0.1 - - [17/Jan/2023 13:52:44] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 13:52:44,134 [INFO] 127.0.0.1 - - [17/Jan/2023 13:52:44] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 13:52:44,135 [INFO] 127.0.0.1 - - [17/Jan/2023 13:52:44] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 13:52:58,975 [INFO] 127.0.0.1 - - [17/Jan/2023 13:52:58] "[33mGET /tag/котики HTTP/1.1[0m" 404 -
+2023-01-17 13:53:06,432 [INFO] 127.0.0.1 - - [17/Jan/2023 13:53:06] "[33mGET /tag/котики HTTP/1.1[0m" 404 -
+2023-01-17 13:53:10,057 [INFO] 127.0.0.1 - - [17/Jan/2023 13:53:10] "[33mGET /tag/котики HTTP/1.1[0m" 404 -
+2023-01-17 14:04:00,271 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-17 14:04:00,272 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-17 14:04:07,551 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:07] "GET / HTTP/1.1" 200 -
+2023-01-17 14:04:07,574 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:07] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 14:04:07,574 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:07] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 14:04:07,575 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:07] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 14:04:08,854 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:08] "GET /tag/котики HTTP/1.1" 200 -
+2023-01-17 14:04:08,868 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:08] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 14:04:08,869 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:08] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 14:04:08,871 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:08] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 14:04:11,087 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:11] "GET / HTTP/1.1" 200 -
+2023-01-17 14:04:11,099 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 14:04:11,105 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 14:04:11,106 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 14:04:14,611 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:14] "GET /tag/любовькживотным HTTP/1.1" 200 -
+2023-01-17 14:04:14,623 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:14] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-17 14:04:14,627 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:14] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 14:04:14,628 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:14] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 14:04:17,076 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:17] "GET / HTTP/1.1" 200 -
+2023-01-17 14:04:17,092 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:17] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-17 14:04:17,094 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:17] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-17 14:04:17,095 [INFO] 127.0.0.1 - - [17/Jan/2023 14:04:17] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-19 01:08:22,169 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-19 01:08:22,169 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-19 01:08:39,488 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:39] "GET / HTTP/1.1" 200 -
+2023-01-19 01:08:39,549 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:39] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-19 01:08:39,569 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:39] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-19 01:08:39,570 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:39] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-19 01:08:46,458 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:46] "GET /search?query=ага HTTP/1.1" 200 -
+2023-01-19 01:08:46,478 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:46] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-19 01:08:46,480 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:46] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-19 01:08:46,481 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:46] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-19 01:08:51,609 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:51] "GET / HTTP/1.1" 200 -
+2023-01-19 01:08:51,622 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:51] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-19 01:08:51,625 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:51] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-19 01:08:51,627 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:51] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-19 01:08:58,314 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:58] "GET /search?query=пизда+хуй+вагина HTTP/1.1" 200 -
+2023-01-19 01:08:58,325 [INFO] 127.0.0.1 - - [19/Jan/2023 01:08:58] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-19 01:09:00,310 [INFO] 127.0.0.1 - - [19/Jan/2023 01:09:00] "GET / HTTP/1.1" 200 -
+2023-01-19 01:09:00,323 [INFO] 127.0.0.1 - - [19/Jan/2023 01:09:00] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-19 01:09:00,324 [INFO] 127.0.0.1 - - [19/Jan/2023 01:09:00] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-19 01:09:00,327 [INFO] 127.0.0.1 - - [19/Jan/2023 01:09:00] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-19 01:09:12,511 [INFO] 127.0.0.1 - - [19/Jan/2023 01:09:12] "[32mGET /bookmarks/add/1 HTTP/1.1[0m" 302 -
+2023-01-19 01:09:12,516 [INFO] 127.0.0.1 - - [19/Jan/2023 01:09:12] "GET / HTTP/1.1" 200 -
+2023-01-19 01:09:12,526 [INFO] 127.0.0.1 - - [19/Jan/2023 01:09:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-19 01:09:12,528 [INFO] 127.0.0.1 - - [19/Jan/2023 01:09:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-19 01:09:12,533 [INFO] 127.0.0.1 - - [19/Jan/2023 01:09:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-19 01:10:56,910 [INFO] 127.0.0.1 - - [19/Jan/2023 01:10:56] "GET /search?query=вимовцол HTTP/1.1" 200 -
+2023-01-19 01:10:56,923 [INFO] 127.0.0.1 - - [19/Jan/2023 01:10:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-19 01:11:08,926 [INFO] 127.0.0.1 - - [19/Jan/2023 01:11:08] "GET /search?query=атуцдё HTTP/1.1" 200 -
+2023-01-19 01:11:08,938 [INFO] 127.0.0.1 - - [19/Jan/2023 01:11:08] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-19 01:11:10,762 [INFO] 127.0.0.1 - - [19/Jan/2023 01:11:10] "GET / HTTP/1.1" 200 -
+2023-01-19 01:11:10,774 [INFO] 127.0.0.1 - - [19/Jan/2023 01:11:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-19 01:11:10,775 [INFO] 127.0.0.1 - - [19/Jan/2023 01:11:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-19 01:11:10,781 [INFO] 127.0.0.1 - - [19/Jan/2023 01:11:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-19 01:14:15,750 [INFO] 127.0.0.1 - - [19/Jan/2023 01:14:15] "GET /posts/1 HTTP/1.1" 200 -
+2023-01-19 01:14:15,762 [INFO] 127.0.0.1 - - [19/Jan/2023 01:14:15] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-19 01:14:15,763 [INFO] 127.0.0.1 - - [19/Jan/2023 01:14:15] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-19 01:14:15,766 [INFO] 127.0.0.1 - - [19/Jan/2023 01:14:15] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-19 01:14:17,150 [INFO] 127.0.0.1 - - [19/Jan/2023 01:14:17] "GET / HTTP/1.1" 200 -
+2023-01-19 01:14:17,162 [INFO] 127.0.0.1 - - [19/Jan/2023 01:14:17] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-19 01:14:17,165 [INFO] 127.0.0.1 - - [19/Jan/2023 01:14:17] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-19 01:14:17,167 [INFO] 127.0.0.1 - - [19/Jan/2023 01:14:17] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-19 01:14:18,732 [INFO] 127.0.0.1 - - [19/Jan/2023 01:14:18] "GET /search?query=вциол HTTP/1.1" 200 -
+2023-01-19 01:14:18,742 [INFO] 127.0.0.1 - - [19/Jan/2023 01:14:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-25 14:41:39,682 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-25 14:41:39,682 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-25 14:58:51,320 [INFO] 127.0.0.1 - - [25/Jan/2023 14:58:51] "GET / HTTP/1.1" 200 -
+2023-01-25 14:58:51,345 [INFO] 127.0.0.1 - - [25/Jan/2023 14:58:51] "GET /static/img/bookmark.png HTTP/1.1" 200 -
+2023-01-25 14:58:51,346 [INFO] 127.0.0.1 - - [25/Jan/2023 14:58:51] "GET /static/css/styles.min.css HTTP/1.1" 200 -
+2023-01-25 14:58:51,346 [INFO] 127.0.0.1 - - [25/Jan/2023 14:58:51] "GET /static/img/eye.png HTTP/1.1" 200 -
+2023-01-25 14:59:29,332 [INFO] 127.0.0.1 - - [25/Jan/2023 14:59:29] "[32mGET /bookmarks/add/3 HTTP/1.1[0m" 302 -
+2023-01-25 14:59:29,337 [INFO] 127.0.0.1 - - [25/Jan/2023 14:59:29] "GET / HTTP/1.1" 200 -
+2023-01-25 14:59:29,347 [INFO] 127.0.0.1 - - [25/Jan/2023 14:59:29] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-25 14:59:29,347 [INFO] 127.0.0.1 - - [25/Jan/2023 14:59:29] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-25 14:59:29,354 [INFO] 127.0.0.1 - - [25/Jan/2023 14:59:29] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-25 14:59:32,019 [INFO] 127.0.0.1 - - [25/Jan/2023 14:59:32] "GET /bookmarks HTTP/1.1" 200 -
+2023-01-25 14:59:32,030 [INFO] 127.0.0.1 - - [25/Jan/2023 14:59:32] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-25 14:59:32,032 [INFO] 127.0.0.1 - - [25/Jan/2023 14:59:32] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-25 14:59:32,033 [INFO] 127.0.0.1 - - [25/Jan/2023 14:59:32] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-25 14:59:34,781 [INFO] 127.0.0.1 - - [25/Jan/2023 14:59:34] "GET / HTTP/1.1" 200 -
+2023-01-25 14:59:34,792 [INFO] 127.0.0.1 - - [25/Jan/2023 14:59:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-25 14:59:34,793 [INFO] 127.0.0.1 - - [25/Jan/2023 14:59:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-25 14:59:34,796 [INFO] 127.0.0.1 - - [25/Jan/2023 14:59:34] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
